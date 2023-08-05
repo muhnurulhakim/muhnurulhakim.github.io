@@ -7,6 +7,7 @@ tags: Tale
 excerpt_separator: <!--more-->
 sticky: true
 hidden: true
+published: false
 ---
 
 Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.<!--more-->
