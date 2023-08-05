@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          Blog Hakim
+description:    "Setiap orang punya cerita berbeda..."
 baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            "https://muhnurulhakim.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Nurul Hakim
+  url:          https://hakim.orderio.id
+  email:        hakim@orderio.id
 
 # Build settings
 markdown:       kramdown
@@ -32,7 +32,7 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       7
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
