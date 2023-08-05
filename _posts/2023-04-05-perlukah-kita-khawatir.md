@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Perlu Khawatir?"
-subtitle: 
 author: "Nurul Hakim"
-tags: Menulis
+tags: Coretan
 ---
 
 Nggak ada ide yang lebih baik hingga ide itu dieksekusi.
