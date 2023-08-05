@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perlu Khawatir?
+title: "Perlu Khawatir?"
 subtitle: 
 author: "Nurul Hakim"
 tags: Menulis
@@ -14,7 +14,7 @@ Bahkan ada orang yang khawatir idenya dicuri orang lain.
 
 ![Photo by Nick Fewings]({{ site.baseurl }}/assets/img/nick-fewings-ZcBY_mxVBCE-unsplash.jpg){: .mx-auto.d-block :}
 
-<center>Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/ZcBY_mxVBCE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></center>
+<center>Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/ZcBY_mxVBCE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></center><br>
 
 Padahal kekhawatirannya bisa benar, bisa juga salah. Ada kalanya ide yang diambil orang lain itu hanya perlu dicuekin aja.
 
