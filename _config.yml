@@ -1,7 +1,7 @@
 # Site settings
 title:          Blog Hakim
 description:    "Setiap orang punya cerita berbeda..."
-baseurl:        "/tale"
+baseurl:        ""
 url:            "https://muhnurulhakim.github.io"
 
 # Google Analytics
