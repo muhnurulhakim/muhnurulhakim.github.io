@@ -2,7 +2,7 @@
 layout: post
 title: "6 Tips Menulis ala Raditya Dika"
 author: "Nurul Hakim"
-tags: "Tips Menulis"
+tags: Tips, Menulis
 ---
 
 Sadar atau nggak, kalo membaca atau menonton sesuatu yang diulang, biasanya dapet pencerahan baru.
