@@ -1,0 +1,5 @@
+Sitemap: https://hakim.orderio.id/sitemap.xml
+
+User-agent: *
+
+Allow: /
