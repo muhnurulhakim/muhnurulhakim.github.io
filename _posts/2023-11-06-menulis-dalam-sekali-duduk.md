@@ -13,7 +13,7 @@ Terlampau jauh pikiran ini berkelana, sampai menghentikan kesempatan-kesempatan 
 
 Setan (mungkin) tertawa lepas. Ia merasa berhasil menjeda saya untuk sharing kayak dulu.
 
-![Image from Canva](https://github.com/muhnurulhakim/source/blob/main/images/devil-canvacom.jpg){: .mx-auto.d-block :}
+![Image from Canva](https://github.com/muhnurulhakim/source/blob/main/images/devil-canvacom.jpg?raw=true){: .mx-auto.d-block :}
 
 Berhasil menunda manusia berbuat kebaikan itu buat setan adalah sebuah prestasi yang patut dibanggakan. Dulu rajin blogging, bahkan pernah sebulan full saya posting di blog ini. Pokoknya tepat buat dikenang. Hahaha…
 
