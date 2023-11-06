@@ -15,9 +15,9 @@ Setan (mungkin) tertawa lepas. Ia merasa berhasil menjeda saya untuk sharing kay
 
 ![Image from Canva](https://github.com/muhnurulhakim/source/blob/main/images/devil-canvacom.jpg?raw=true){: .mx-auto.d-block :}
 
-Berhasil menunda manusia berbuat kebaikan itu buat setan adalah sebuah prestasi yang patut dibanggakan. Dulu rajin blogging, bahkan pernah sebulan full saya posting di blog ini. Pokoknya tepat buat dikenang. Hahaha…
+Berhasil menunda manusia berbuat kebaikan itu buat setan adalah sebuah prestasi yang patut dibanggakan. Dulu rajin blogging, bahkan pernah sebulan full saya posting di [blog lawas saya ini](https://kimsanada.wordpress.com). Pokoknya tepat buat dikenang. Hahaha…
 
-Selain rajin posting, coba cek aja postingan blog ini, begitu lepas saya nulis segala macam hal yang saya temui atau saya alami. Nulis aja hampir tanpa beban.
+Selain rajin posting, coba cek aja postingan blog [kimsanada.wordpress.com](https://kimsanada.wordpress.com), begitu lepas saya nulis segala macam hal yang saya temui atau saya alami. Nulis aja hampir tanpa beban.
 
 Ya bener sih, dulu saya masih hidup sendiri, belum berkeluarga. Makan masih numpang di rumah orangtua, masih dikasih uang jajan. Fokusnya cuma buat belajar aja di sekolah, di kampus.
 
@@ -69,4 +69,4 @@ Wonopringgo, 5 November 2023
 
 _NB:_
 
-_Tulisan asli saya posting di blog kimsanada.wordpress.com, namun saya merasa perlu saya posting ulang di blog ini. Semoga bermanfaat._
+_Tulisan asli saya posting di blog [kimsanada.wordpress.com](https://kimsanada.wordpress.com), namun saya merasa perlu saya posting ulang di blog ini. Semoga bermanfaat._
