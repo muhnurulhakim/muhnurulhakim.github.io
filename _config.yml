@@ -1,7 +1,6 @@
 # Site settings
 title:          Blog Hakim
 description:    "Setiap orang punya cerita berbeda..."
-baseurl:        ""
 url:            "https://hakim.orderio.id"
 
 # Google Analytics
