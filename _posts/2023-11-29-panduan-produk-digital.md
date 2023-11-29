@@ -46,7 +46,7 @@ Aset digital adalah produk digital yang dapat digunakan untuk meningkatkan nilai
 
 Layanan digital adalah jasa atau layanan yang ditawarkan secara online. Layanan digital dapat berupa layanan desain, layanan pemasaran, atau layanan lainnya.
 
-**Kelebihan Produk Digital**
+## Kelebihan Produk Digital
 
 Produk digital memiliki beberapa kelebihan dibandingkan produk fisik, yaitu:
 
