@@ -1,4 +1,4 @@
-Sitemap: https://hakim.orderio.id/sitemap.xml
+Sitemap: https://hakim.orderio.my.id/sitemap.xml
 
 User-agent: *
 
