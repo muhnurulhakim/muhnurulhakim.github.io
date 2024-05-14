@@ -16,6 +16,7 @@ author:
 markdown:       kramdown
 include:
   - _pages
+  - _posts
 
 # Assets
 sass:
@@ -41,9 +42,6 @@ exclude:
   - tale.gemspec
   - public/admin
   - node_modules
-
-include:
-  - _posts
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
