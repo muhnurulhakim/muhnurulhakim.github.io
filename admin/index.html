@@ -7,6 +7,8 @@
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
+    <h1>Netlify CMS Admin</h1>
+    <div id="cms"></div>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -19,6 +21,7 @@
       }
       // Log to ensure the script is running
       console.log("Netlify Identity and CMS scripts loaded");
+      console.log("User:", window.netlifyIdentity && window.netlifyIdentity.currentUser());
     </script>
   </body>
 </html>
