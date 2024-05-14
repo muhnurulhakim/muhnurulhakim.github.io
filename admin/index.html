@@ -21,6 +21,7 @@
           
           if (!user) {
             window.netlifyIdentity.on("login", () => {
+              console.log("User logged in");
               document.location.href = "/admin/";
             });
           }
