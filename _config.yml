@@ -36,6 +36,11 @@ paginate:       7
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+          - public/admin
+          - node_modules
+
+include:
+  - _posts
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
