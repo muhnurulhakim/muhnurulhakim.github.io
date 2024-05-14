@@ -12,35 +12,47 @@
     <script>
       console.log("Netlify Identity script loaded");
 
-      if (window.netlifyIdentity) {
-        console.log("Netlify Identity is available");
-        
-        window.netlifyIdentity.on("init", user => {
-          console.log("Netlify Identity initialized");
-          console.log("User on init:", user);
-          
-          if (!user) {
+      document.addEventListener("DOMContentLoaded", function() {
+        console.log("DOM fully loaded and parsed");
+
+        const cmsElement = document.getElementById("cms");
+        if (cmsElement) {
+          console.log("Element with id 'cms' found");
+
+          // Initialize Netlify Identity
+          if (window.netlifyIdentity) {
+            console.log("Netlify Identity is available");
+
+            window.netlifyIdentity.on("init", user => {
+              console.log("Netlify Identity initialized");
+              console.log("User on init:", user);
+
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  console.log("User logged in");
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+
             window.netlifyIdentity.on("login", () => {
               console.log("User logged in");
               document.location.href = "/admin/";
             });
+
+            window.netlifyIdentity.on("logout", () => {
+              console.log("User logged out");
+              document.location.href = "/";
+            });
+
+            window.netlifyIdentity.init();
+          } else {
+            console.error("Netlify Identity is not available");
           }
-        });
-
-        window.netlifyIdentity.on("login", () => {
-          console.log("User logged in");
-          document.location.href = "/admin/";
-        });
-
-        window.netlifyIdentity.on("logout", () => {
-          console.log("User logged out");
-          document.location.href = "/";
-        });
-
-        window.netlifyIdentity.init();
-      } else {
-        console.error("Netlify Identity is not available");
-      }
+        } else {
+          console.error("Element with id 'cms' not found");
+        }
+      });
     </script>
   </body>
 </html>
