@@ -8,7 +8,7 @@
 [build.processing]
   skip_processing = true
 
-[build.functions]
+[functions]
   directory = "netlify/functions"
 
 [context.production.environment]
