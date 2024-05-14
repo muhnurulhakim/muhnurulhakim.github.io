@@ -35,9 +35,12 @@ permalink:      /:year-:month-:day/:title
 paginate:       7
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
-          - public/admin
-          - node_modules
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - tale.gemspec
+  - public/admin
+  - node_modules
 
 include:
   - _posts
