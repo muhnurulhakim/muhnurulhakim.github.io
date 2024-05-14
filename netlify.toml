@@ -1,0 +1,23 @@
+[build]
+  publish = "public"
+  command = "bundle install && jekyll build"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+
+[build.processing]
+  skip_processing = true
+
+[build.functions]
+  directory = "netlify/functions"
+
+[context.production.environment]
+  RUBY_VERSION = "2.7.2"
+
+[context.production.processing]
+  css = false
+  js = false
+  images = false
+
+[cache]
+  paths = ["_site", "vendor/bundle", ".bundle", "node_modules"]
