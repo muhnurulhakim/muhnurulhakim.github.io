@@ -1,18 +1,17 @@
 backend:
   name: git-gateway
-  branch: master # Ubah ini ke branch utama di repositorimu
+  branch: master
 
-media_folder: "public/uploads" # Tempat untuk menyimpan media
+media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts" # Lokasi folder untuk postingan blog
+    folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-
