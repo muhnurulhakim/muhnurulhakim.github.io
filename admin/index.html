@@ -10,18 +10,26 @@
     <h1>Netlify CMS Admin</h1>
     <div id="cms"></div>
     <script>
+      console.log("Netlify Identity script loaded");
+
       if (window.netlifyIdentity) {
+        console.log("Netlify Identity is available");
+        
         window.netlifyIdentity.on("init", user => {
+          console.log("Netlify Identity initialized");
+          console.log("User on init:", user);
+          
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";
             });
           }
         });
+
+        window.netlifyIdentity.init();
+      } else {
+        console.error("Netlify Identity is not available");
       }
-      // Log to ensure the script is running
-      console.log("Netlify Identity and CMS scripts loaded");
-      console.log("User:", window.netlifyIdentity && window.netlifyIdentity.currentUser());
     </script>
   </body>
 </html>
