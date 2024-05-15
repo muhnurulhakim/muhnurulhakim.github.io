@@ -12,17 +12,32 @@
     </main>
 
     {% include footer.html %}
+
+    <!-- Tempatkan script TinaCMS di sini -->
+      <script src="https://cdn.jsdelivr.net/npm/tinacms@next/dist/tinacms.min.js"></script>
+      <script>
+        import { TinaCMS } from 'tinacms';
+        import config from './.tina/config';
+    
+        const cms = new TinaCMS({
+          enabled: true,
+          sidebar: {
+            position: 'displace',
+          },
+          toolbar: {
+            hidden: false,
+          },
+          ...config
+        });
+    
+        cms.media.store = new TinaCMS.MediaStore.TinaMediaStore({
+          api: {
+            apiUrl: '/api/tina/media'
+          },
+        });
+    
+        window.cms = cms;
+      </script>
+    
   </body>
 </html>
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
